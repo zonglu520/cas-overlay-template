@@ -67,9 +67,14 @@
             <scope>runtime</scope>
         </dependency>
         <dependency>
-          <groupId>org.apereo.cas</groupId>
-          <artifactId>cas-server-support-mongo</artifactId>
-          <version>${cas.version}</version>
+            <groupId>org.apereo.cas</groupId>
+            <artifactId>cas-server-core-configuration-cloud-mongo</artifactId>
+            <version>${cas.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apereo.cas</groupId>
+            <artifactId>cas-server-support-mongo</artifactId>
+            <version>${cas.version}</version>
         </dependency>
     </dependencies>
 
